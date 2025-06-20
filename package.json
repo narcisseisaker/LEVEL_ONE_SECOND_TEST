@@ -1,0 +1,21 @@
+{
+  "name": "level_one_second_test",
+  "version": "1.0.0",
+  "description": "** testing knowledge on HTML, CSS and SASS **",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass --watch sass/style.scss src/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narcisseisaker/LEVEL_ONE_SECOND_TEST.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narcisseisaker/LEVEL_ONE_SECOND_TEST/issues"
+  },
+  "homepage": "https://github.com/narcisseisaker/LEVEL_ONE_SECOND_TEST#readme"
+}
