@@ -1,0 +1,328 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: "Bitly Display Medium", "Heveltica Neue", Heveltica, arial, sans-serif;
+  font-size: 16px;
+}
+
+.header-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #002139;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 0;
+  font-weight: Bold;
+  color: #031F39;
+  background-color: #002139;
+}
+.header a {
+  text-decoration: none;
+  color: #FFFDF8;
+}
+.header nav {
+  margin-left: 50px;
+}
+.header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.header nav ul li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+  padding: 3px;
+}
+.header nav ul li a i {
+  padding: 3px;
+}
+.header .langue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 4%;
+  padding: 10px;
+  background-color: #002139;
+  color: #FFFDF8;
+}
+.header .langue span {
+  margin: 3px;
+}
+.header .login-signup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.header .login-signup .quote {
+  padding: 8px;
+  margin: 10px;
+  background: none;
+  color: #FFFDF8;
+  border: 2px solid #FFFDF8;
+  border-radius: 10px;
+}
+.header .login-signup .signup {
+  padding: 8px;
+  background: #FFFDF8;
+  color: #031F39;
+  border: 1px solid #FFFDF8;
+  border-radius: 10px;
+}
+
+.dig-connect {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFDF8;
+  padding-top: 50px;
+  background-color: #002139;
+  text-align: center;
+  font-size: 22px;
+}
+.dig-connect h1 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+.dig-connect p {
+  line-height: 44px;
+  text-align: center;
+  margin-top: 7px;
+}
+
+.link {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  background-color: #002139;
+}
+.link li {
+  margin: 10px;
+}
+.link li .short-link-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  width: 170px;
+  height: 65px;
+  color: #002039;
+  background-color: #FFFDF8;
+  border-radius: 20px;
+}
+.link li .short-link-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  width: 170px;
+  height: 65px;
+  color: #FFFDF8;
+}
+
+.shorten-container {
+  margin-top: 0;
+  background-color: #002139;
+}
+.shorten-container .shorten-link {
+  width: 60%;
+  height: 55vh;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  background-color: #FFFDF8;
+  color: #031F39;
+  margin: 0 auto;
+  margin-top: 40px;
+  gap: 15px;
+  border-radius: 20px;
+}
+.shorten-container .shorten-link h4 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+.shorten-container .shorten-link label {
+  display: flex;
+  flex-direction: column;
+}
+.shorten-container .shorten-link label span {
+  font-weight: bold;
+  font-size: 20px;
+}
+.shorten-container .shorten-link label input {
+  margin-right: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.shorten-container .shorten-link button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 30%;
+  color: #FFFDF8;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+}
+.shorten-container .shorten-link button span {
+  margin: 10px;
+}
+
+.free-signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.free-signup h5 {
+  font-weight: bold;
+  color: #FFFDF8;
+  font-size: 24px;
+}
+.free-signup ul {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+}
+.free-signup ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  margin: 20px;
+  color: #FFFDF8;
+}
+.free-signup .partners {
+  display: flex;
+  justify-content: center;
+}
+
+.bitlyconnexion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f4ee;
+}
+.bitlyconnexion .text1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+.bitlyconnexion h3 {
+  font-weight: bold;
+  font-size: 40px;
+  margin: 10px;
+}
+.bitlyconnexion .text2 {
+  font-size: 22px;
+  margin-top: 0;
+  padding-top: 0;
+}
+.bitlyconnexion .buttonconnexion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  gap: 10px;
+}
+.bitlyconnexion .buttonconnexion .get-link-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 80%;
+  color: #FFFDF8;
+  background-color: #005adc;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+}
+.bitlyconnexion .buttonconnexion .get-link-1 span {
+  margin: 10px;
+}
+.bitlyconnexion .buttonconnexion .get-link-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  width: 70%;
+  color: #FFFDF8;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  padding: 8px 8px;
+  color: #005adc;
+  background-color: transparent;
+  border: 1px solid #005adc;
+}
+.bitlyconnexion .buttonconnexion .get-link-2 span {
+  margin: 10px;
+}
+
+.adopted {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+}
+.adopted h3 {
+  text-align: center;
+  font-size: 48px;
+}
+.adopted .card-container {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  row-gap: 30px;
+  column-gap: 10px;
+  height: 50vh;
+  width: 70%;
+}
+.adopted .card-container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-around;
+  padding: 20px;
+  background-color: #efeae3;
+  border-radius: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  flex: 1;
+}
+.adopted .card-container h1 {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
